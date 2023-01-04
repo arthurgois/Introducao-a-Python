@@ -7,7 +7,7 @@ import time
 def sendmail(temp, date):
     sender = "insira o e-mail aqui"          #endereço de email do remetente
     password = "insira a senha"                  #senha do email do remetente
-    receiver = "arthur.gois@ufpe.br"    #endereço de email do destinatario
+    receiver = "destinatario@email.com"    #endereço de email do destinatario
 
     message = EmailMessage()
     message['Subject'] = "ALERTA DE TEMPERATURA: Sua máquina superou os 40°C!"      #assunto do email
